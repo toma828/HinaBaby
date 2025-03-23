@@ -199,7 +199,6 @@ const TeacherVideoDetailPage = () => {
                 <div>
                   <p className="text-gray-600 mb-1">生徒名: {video.owner_name}</p>
                   <p className="text-gray-600 mb-1">練習内容: {video.practice_type}</p>
-                  <p className="text-gray-600 mb-1">赤ちゃんの月齢: {video.baby_age}</p>
                 </div>
                 <span className={`${video.has_feedback ? 'bg-green-500' : 'bg-yellow-500'} text-white px-3 py-1 rounded-full text-sm`}>
                   {video.has_feedback ? 'フィードバック済み' : 'フィードバック待ち'}

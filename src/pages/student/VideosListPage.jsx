@@ -86,7 +86,6 @@ const StudentVideosListPage = () => {
               <div className="p-4">
                 <h3 className="text-lg font-semibold">{video.title}</h3>
                 <p className="text-sm text-gray-600">練習内容: {video.practice_type}</p>
-                <p className="text-sm text-gray-600">月齢: {video.baby_age}</p>
                 <div className="mt-4">
                   <Link to={`/student/video/${video.id}`} className="text-primary hover:underline">
                     詳細を見る

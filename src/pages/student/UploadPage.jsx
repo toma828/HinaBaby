@@ -145,28 +145,6 @@ const StudentUploadPage = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           <div>
-            <label className="block text-gray-700 font-semibold mb-2" htmlFor="babyAge">
-              赤ちゃんの月齢
-            </label>
-            <select
-              id="babyAge"
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
-              value={babyAge}
-              onChange={(e) => setBabyAge(e.target.value)}
-              required
-              disabled={isSubmitting}
-            >
-              <option value="">選択してください</option>
-              <option value="0-1">0〜1ヶ月</option>
-              <option value="2-3">2〜3ヶ月</option>
-              <option value="4-6">4〜6ヶ月</option>
-              <option value="7-9">7〜9ヶ月</option>
-              <option value="10-12">10〜12ヶ月</option>
-              <option value="over-12">12ヶ月以上</option>
-            </select>
-          </div>
-
-          <div>
             <label className="block text-gray-700 font-semibold mb-2" htmlFor="practiceType">
               練習内容
             </label>
